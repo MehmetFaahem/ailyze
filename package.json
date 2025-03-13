@@ -9,6 +9,13 @@
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MehmetFaahem/ailyze"
+  },
   "keywords": [
     "ai",
     "cloudflare",
@@ -85,7 +92,7 @@
     "react js text and image generator cloudflare workers ai typescript",
     "react js text and image optimization cloudflare workers ai typescript"
   ],
-  "author": "",
+  "author": "Muhammad Fahim",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.2",
